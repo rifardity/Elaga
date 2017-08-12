@@ -11,7 +11,7 @@ public class MainActivity extends Activity {
 
 
     String[] nama_menu = {"Modul", "Pancasila", "Undang Undang", "About"};
-    int[] icon_menu = {R.drawable.idea, R.drawable.puzzle, R.drawable.trial, R.drawable.info};
+    int[] icon_menu = {R.drawable.module, R.drawable.pancasila, R.drawable.law, R.drawable.about};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
