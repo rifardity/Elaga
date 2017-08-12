@@ -18,12 +18,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="Garuda"
-            android:src="@drawable/garuda" />
+            android:src="@drawable/logo" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bela Negara"
+            android:text="ELAGA"
             android:textAlignment="center"
             android:textColor="#ef3529"
             android:textSize="24sp" />

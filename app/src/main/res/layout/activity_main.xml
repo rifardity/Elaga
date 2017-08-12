@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:background="#b21e1e"
+        android:background="#282828"
         android:orientation="vertical">
 
         <ImageView
@@ -19,7 +19,7 @@
             android:layout_weight="2"
             android:contentDescription="img bela negara"
             android:scaleType="center"
-            android:src="@drawable/badge" />
+            android:src="@drawable/eangle" />
 
         <TextView
             android:layout_width="match_parent"
