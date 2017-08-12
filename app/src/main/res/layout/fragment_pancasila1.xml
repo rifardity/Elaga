@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
-            android:text="Sila Sila Pancasila"
+            android:text="Sila Pancasila"
             android:textAlignment="center"
             android:textColor="#f4b241"
             android:textSize="32sp" />
