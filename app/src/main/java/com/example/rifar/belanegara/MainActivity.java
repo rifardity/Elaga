@@ -5,7 +5,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.GridView;
+import android.widget.ImageView;
 
 public class MainActivity extends Activity {
 
@@ -17,8 +19,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        new Sound(getApplication());
         GridView grid = (GridView) findViewById(R.id.grid_menu);
+        ImageView sound = (ImageView) findViewById(R.id.btn_sound);
         Adapter adapter = new Adapter(MainActivity.this, nama_menu, icon_menu);
         grid.setAdapter(adapter);
         grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -41,16 +43,23 @@ public class MainActivity extends Activity {
 
             }
         });
+
+        sound.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startService(new Intent(MainActivity.this, Sound.class));
+            }
+        });
     }
+
 
     public void onPause() {
         super.onPause();
-        Sound.backsound.stop();
+
     }
 
     public void onResume() {
         super.onResume();
-        Sound.backsound.start();
     }
 
 }
