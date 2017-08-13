@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(MainActivity.this, MainActivity.class));
                         break;
                     case "About":
-                        startActivity(new Intent(MainActivity.this, MainActivity.class));
+                        startActivity(new Intent(MainActivity.this, About.class));
                         break;
                 }
 
