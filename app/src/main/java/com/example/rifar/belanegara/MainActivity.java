@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean music=false;
     String[] nama_menu = {"Modul", "Pancasila", "Undang Undang", "About"};
-    int[] icon_menu = {R.drawable.module, R.drawable.pancasila, R.drawable.law, R.drawable.about};
+    int[] icon_menu = {R.drawable.book, R.drawable.idea, R.drawable.laws, R.drawable.info};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
