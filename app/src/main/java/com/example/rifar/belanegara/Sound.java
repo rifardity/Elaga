@@ -24,10 +24,6 @@ public class Sound extends Service {
         return START_STICKY;
     }
 
-    public void onPause(){
-        backsound.pause();
-    }
-
     @Override
     public void onDestroy() {
         super.onDestroy();

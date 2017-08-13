@@ -1,11 +1,11 @@
 package com.example.rifar.belanegara;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
 
-public class Splash extends Activity {
+public class Splash extends AppCompatActivity {
     private static int TimeOut=3000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
