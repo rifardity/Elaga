@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         stopService(new Intent(MainActivity.this,Sound.class));
+
     }
 
 
