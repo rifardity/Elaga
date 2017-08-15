@@ -12,7 +12,7 @@
         android:layout_above="@+id/txt_version"
         android:layout_centerHorizontal="true"
         android:contentDescription="Logo Elaga"
-        android:src="@drawable/logo" />
+        android:src="@drawable/logov" />
 
     <TextView
         android:id="@+id/txt_version"

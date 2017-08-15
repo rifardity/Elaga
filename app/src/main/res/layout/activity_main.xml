@@ -23,12 +23,13 @@
             android:layout_alignEnd="@+id/img_elaga"/>
 
         <ImageView
+            android:layout_centerVertical="true"
             android:id="@+id/img_elaga"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="img bela negara"
             android:scaleType="center"
-            android:src="@drawable/eangle" />
+            android:src="@drawable/garuda" />
 
         <TextView
             android:layout_below="@+id/img_elaga"
@@ -37,7 +38,7 @@
             android:text="Bela Negara"
             android:textAlignment="center"
             android:textColor="#FFF"
-            android:textSize="32sp" />
+            android:textSize="24sp" />
 
     </RelativeLayout>
 
