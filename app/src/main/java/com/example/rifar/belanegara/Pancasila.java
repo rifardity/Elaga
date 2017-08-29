@@ -14,7 +14,7 @@ public class Pancasila extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pancasila);
         viewPager = (ViewPager) findViewById(R.id.pager);
-        pagerAdapter = new PancasilaAdapter(getSupportFragmentManager());
+        pagerAdapter = new PancasilaAdapter(getSupportFragmentManager(), getApplicationContext());
         viewPager.setAdapter(pagerAdapter);
 
     }

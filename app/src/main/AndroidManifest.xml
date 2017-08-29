@@ -18,10 +18,11 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".Pancasila" />
+        <activity android:name=".UudActivity" />
 
-        <service android:name=".Sound" />
+        <service android:name=".SoundController" />
 
-        <activity android:name=".About"></activity>
+        <activity android:name=".About" />
     </application>
 
 </manifest>
