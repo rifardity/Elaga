@@ -36,6 +36,7 @@ public class UudActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Undang Undang");
+        mToolbar.setTitleTextColor(0xFFFFFFFF);
     }
 
     @Override
@@ -43,6 +44,7 @@ public class UudActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_toolbar, menu);
         return true;
     }
+
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         mSearchAction = menu.findItem(R.id.action_search);
@@ -67,7 +69,7 @@ public class UudActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        if(isSearchOpened) {
+        if (isSearchOpened) {
             handleMenuSearch();
             return;
         }
@@ -86,10 +88,10 @@ public class UudActivity extends AppCompatActivity {
     }
 
 
-    protected void handleMenuSearch(){
+    protected void handleMenuSearch() {
         ActionBar action = getSupportActionBar();
 
-        if(isSearchOpened){
+        if (isSearchOpened) {
             action.setDisplayShowCustomEnabled(false);
             action.setDisplayShowTitleEnabled(true);
             InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -101,7 +103,7 @@ public class UudActivity extends AppCompatActivity {
             action.setDisplayShowCustomEnabled(true);
             action.setCustomView(R.layout.search_toolbar);
             action.setDisplayShowTitleEnabled(false);
-            edtSearch = (EditText)action.getCustomView().findViewById(R.id.edtSearch);
+            edtSearch = (EditText) action.getCustomView().findViewById(R.id.edtSearch);
 
             edtSearch.setOnEditorActionListener((v, actionId, event) -> {
                 if (actionId == EditorInfo.IME_ACTION_SEARCH) {

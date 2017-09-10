@@ -6,16 +6,16 @@
 
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="action_settings"
-        app:showAsAction="never" />
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_close_mic"
+        android:title="voice"
+        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/action_search"
-        android:title="search"
-        android:orderInCategory="200"
         android:icon="@drawable/ic_open_search"
-        app:showAsAction="ifRoom"
-        />
+        android:orderInCategory="100"
+        android:title="search"
+        app:showAsAction="ifRoom" />
 
 </menu>

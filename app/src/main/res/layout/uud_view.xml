@@ -3,21 +3,26 @@
     xmlns:local="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".UudActivity">
 
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#c52c36">
-    </android.support.v7.widget.Toolbar>
+        android:background="#c52c36"></android.support.v7.widget.Toolbar>
 
 
     <ListView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:divider="@null"
-    local:binding="{adapter pasals @layout/uud_master}"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f6f6f6"
+        android:divider="@null"
+        android:paddingTop="4dp"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:paddingBottom="4dp"
+        android:verticalSpacing="10dp"
+        local:binding="{adapter pasals @layout/uud_master}" />
 </LinearLayout>

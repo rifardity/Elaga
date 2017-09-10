@@ -36,7 +36,49 @@ public class UudViewModel {
                     new AyatModel("Ayat 2", "Majelis Permusyawaratan Rakyat melantik Presiden dan/atau Wakil Presiden."),
                     new AyatModel("Ayat 3", "Majelis Permusyawaratan Rakyat hanya dap at memberhentikan Presiden dan/atau " +
                             "Wakil Presiden dalam masa jabatannya menurut UndangUndang Dasar. ")
-            })
+            }),
+                new PasalModel("Pasal 3", "Bab II: Majelis Permusyawaratan Rakyat", new AyatModel[] {
+                        new AyatModel("Ayat 1", "Majelis Permusyawaratan Rakyat berwenang mengubah dan menetapkan UndangUndang Dasar."),
+                        new AyatModel("Ayat 2", "Majelis Permusyawaratan Rakyat melantik Presiden dan/atau Wakil Presiden."),
+                        new AyatModel("Ayat 3", "Majelis Permusyawaratan Rakyat hanya dap at memberhentikan Presiden dan/atau " +
+                                "Wakil Presiden dalam masa jabatannya menurut UndangUndang Dasar. ")
+                }),
+                new PasalModel("Pasal 3", "Bab II: Majelis Permusyawaratan Rakyat", new AyatModel[] {
+                        new AyatModel("Ayat 1", "Majelis Permusyawaratan Rakyat berwenang mengubah dan menetapkan UndangUndang Dasar."),
+                        new AyatModel("Ayat 2", "Majelis Permusyawaratan Rakyat melantik Presiden dan/atau Wakil Presiden."),
+                        new AyatModel("Ayat 3", "Majelis Permusyawaratan Rakyat hanya dap at memberhentikan Presiden dan/atau " +
+                                "Wakil Presiden dalam masa jabatannya menurut UndangUndang Dasar. ")
+                }),
+                new PasalModel("Pasal 3", "Bab II: Majelis Permusyawaratan Rakyat", new AyatModel[] {
+                        new AyatModel("Ayat 1", "Majelis Permusyawaratan Rakyat berwenang mengubah dan menetapkan UndangUndang Dasar."),
+                        new AyatModel("Ayat 2", "Majelis Permusyawaratan Rakyat melantik Presiden dan/atau Wakil Presiden."),
+                        new AyatModel("Ayat 3", "Majelis Permusyawaratan Rakyat hanya dap at memberhentikan Presiden dan/atau " +
+                                "Wakil Presiden dalam masa jabatannya menurut UndangUndang Dasar. ")
+                }),
+                new PasalModel("Pasal 3", "Bab II: Majelis Permusyawaratan Rakyat", new AyatModel[] {
+                        new AyatModel("Ayat 1", "Majelis Permusyawaratan Rakyat berwenang mengubah dan menetapkan UndangUndang Dasar."),
+                        new AyatModel("Ayat 2", "Majelis Permusyawaratan Rakyat melantik Presiden dan/atau Wakil Presiden."),
+                        new AyatModel("Ayat 3", "Majelis Permusyawaratan Rakyat hanya dap at memberhentikan Presiden dan/atau " +
+                                "Wakil Presiden dalam masa jabatannya menurut UndangUndang Dasar. ")
+                }),
+                new PasalModel("Pasal 3", "Bab II: Majelis Permusyawaratan Rakyat", new AyatModel[] {
+                        new AyatModel("Ayat 1", "Majelis Permusyawaratan Rakyat berwenang mengubah dan menetapkan UndangUndang Dasar."),
+                        new AyatModel("Ayat 2", "Majelis Permusyawaratan Rakyat melantik Presiden dan/atau Wakil Presiden."),
+                        new AyatModel("Ayat 3", "Majelis Permusyawaratan Rakyat hanya dap at memberhentikan Presiden dan/atau " +
+                                "Wakil Presiden dalam masa jabatannya menurut UndangUndang Dasar. ")
+                }),
+                new PasalModel("Pasal 3", "Bab II: Majelis Permusyawaratan Rakyat", new AyatModel[] {
+                        new AyatModel("Ayat 1", "Majelis Permusyawaratan Rakyat berwenang mengubah dan menetapkan UndangUndang Dasar."),
+                        new AyatModel("Ayat 2", "Majelis Permusyawaratan Rakyat melantik Presiden dan/atau Wakil Presiden."),
+                        new AyatModel("Ayat 3", "Majelis Permusyawaratan Rakyat hanya dap at memberhentikan Presiden dan/atau " +
+                                "Wakil Presiden dalam masa jabatannya menurut UndangUndang Dasar. ")
+                }),
+                new PasalModel("Pasal 3", "Bab II: Majelis Permusyawaratan Rakyat", new AyatModel[] {
+                        new AyatModel("Ayat 1", "Majelis Permusyawaratan Rakyat berwenang mengubah dan menetapkan UndangUndang Dasar."),
+                        new AyatModel("Ayat 2", "Majelis Permusyawaratan Rakyat melantik Presiden dan/atau Wakil Presiden."),
+                        new AyatModel("Ayat 3", "Majelis Permusyawaratan Rakyat hanya dap at memberhentikan Presiden dan/atau " +
+                                "Wakil Presiden dalam masa jabatannya menurut UndangUndang Dasar. ")
+                })
         ));
     }
 }
