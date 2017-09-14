@@ -10,21 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Splash">
-
-        </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Pancasila" />
-        <activity android:name=".UudActivity" />
-
-        <service android:name=".SoundController" />
-
-        <activity android:name=".About" />
-        <activity android:name=".UudSelect">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Pancasila" />
+        <activity android:name=".UudActivity">
+        </activity>
+
+        <service android:name=".SoundController" />
+
+        <activity android:name=".About" />
+        <activity android:name=".UudSelect">
+
         </activity>
     </application>
 

@@ -14,7 +14,9 @@ public class UudSelect extends AppCompatActivity {
         setContentView(R.layout.activity_uud_select);
         Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar_select);
         setSupportActionBar(mToolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        getSupportActionBar().setDisplayShowTitleEnabled(true);
+        getSupportActionBar().setTitle("Pasal 1");
+        mToolbar.setTitleTextColor(0xFFFFFFFF);
     }
 
     @Override
